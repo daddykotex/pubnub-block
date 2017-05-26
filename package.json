@@ -1,0 +1,23 @@
+{
+  "name": "mnubo-pubnub-block",
+  "version": "0.1.0",
+  "description": "ease the pubnub mnubo BLOCK creation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnubo/pubnub-block.git"
+  },
+  "keywords": [
+    "mnubo",
+    "pubnub"
+  ],
+  "author": "David Francoeur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mnubo/pubnub-block/issues"
+  },
+  "homepage": "https://github.com/mnubo/pubnub-block#readme"
+}
