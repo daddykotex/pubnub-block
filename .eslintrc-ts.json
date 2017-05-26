@@ -1,0 +1,14 @@
+{
+    "extends": [
+        "mnubo"
+    ],
+    "rules": {
+        "max-len": [2, 120],
+        "no-undef": 0,
+        "no-unused-vars": 0,
+        "space-infix-ops": 0,
+        "no-extra-parens": 0,
+        "no-unused-expressions": 0
+    },
+    "parser": "typescript-eslint-parser"
+}

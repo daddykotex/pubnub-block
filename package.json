@@ -2,9 +2,19 @@
   "name": "mnubo-pubnub-block",
   "version": "0.1.0",
   "description": "ease the pubnub mnubo BLOCK creation",
-  "main": "index.js",
+  "files": [
+    "dist/",
+    "src/"
+  ],
   "scripts": {
+    "build": "tsc",
+    "lint": "eslint src/",
+    "start": "tsc && node dist/index.js",
+    "clean": "rm -rf node_modules dist",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mnubo-pubnub-cli": "./dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +29,17 @@
   "bugs": {
     "url": "https://github.com/mnubo/pubnub-block/issues"
   },
-  "homepage": "https://github.com/mnubo/pubnub-block#readme"
+  "homepage": "https://github.com/mnubo/pubnub-block#readme",
+  "devDependencies": {
+    "@types/commander": "^2.9.0",
+    "@types/node": "^7.0.22",
+    "eslint-config-mnubo": "^1.2.0",
+    "typescript": "^2.2.0",
+    "typescript-eslint-parser": "^3.0.0"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0"
+  }
 }
